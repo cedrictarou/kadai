@@ -18,8 +18,9 @@
 <body>
     <main>
         <div class="container">
-            <p><span>名前：</span>{{ $item['name'] }}</p>
-            <p><span>メールアドレス：</span>{{ $item['email'] }}</p>
+            <h1>問い合わせありがとうございます</h1>
+            <p><span>名前：</span>{{ $user['name'] }}</p>
+            <p><span>メールアドレス：</span>{{ $user['email'] }}</p>
             <p>お問い合わせありがとうございます。</p>
             <a href="/">トップへ戻る</a>
         </div>

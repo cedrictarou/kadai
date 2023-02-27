@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::get('/', [AuthController::class, 'index'])->name('index');
-Route::post('/', [AuthController::class, 'contact'])->name('contact');
+Route::post('/', [AuthController::class, 'thanks'])->name('thanks');
